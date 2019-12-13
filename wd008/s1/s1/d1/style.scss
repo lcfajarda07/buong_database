@@ -1,0 +1,14 @@
+$third-color:#DFDFE1;
+$fourth-color:rgba(255,0,0,0.5);
+@import "buttons";
+@import "nav";
+@import "transform";
+body{
+	background-color:pink;
+	font-family: 'arial;'
+}
+// .box { @include transform(rotate(30deg)); }
+
+.sample{
+	width: 10 *30px;
+}

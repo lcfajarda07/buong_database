@@ -1,0 +1,15 @@
+nav{
+	ul{
+		background-color:blue;
+
+		a{
+		color:yellow;
+		background-color:$third-color;	
+		}
+		
+	}
+	a:hover{
+			background-color: $fourth-color;
+		}
+	
+}
